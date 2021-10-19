@@ -62,7 +62,7 @@
 
 ![fig5_bt_pos_full](../Images/fig5_bt_pos_full.png)
 
-![fig8_bt_neg_full](../xai/Images/fig8_bt_neg_full.png)
+![fig8_bt_neg_full](../Images/fig8_bt_neg_full.png)
 
 ![fig8_bt_pos_full](../Images/fig8_bt_pos_full.png)
 
