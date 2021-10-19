@@ -8,15 +8,15 @@ We have used the MNIST character recognition dataset to demonstrate the Arya-xAI
 
 ![fig2_input](../Images/fig2_input.png)
 
-![fig3_input](/../fig3_input.png)
+![fig3_input](../Images/fig3_input.png)
 
-![fig4_input](/../fig4_input.png)
+![fig4_input](../Images/fig4_input.png)
 
-![fig5_input](/../fig5_input.png)
+![fig5_input](../Images/fig5_input.png)
 
-![fig8_input](/../fig8_input.png)
+![fig8_input](../Images/fig8_input.png)
 
-![fig9_input](/../fig9_input.png)
+![fig9_input](../Images/fig9_input.png)
 
 ​	Examples of input 
 
@@ -30,51 +30,51 @@ We have used the MNIST character recognition dataset to demonstrate the Arya-xAI
 
 ##### DEFAULT MODE OUTPUT
 
-![](/../fig1_bt.png)
+![](../Images/fig1_bt.png)
 
-![fig2_bt](/../fig2_bt.png)
+![fig2_bt](../Images/fig2_bt.png)
 
-![fig3_bt](/../fig3_bt.png)
+![fig3_bt](../Images/fig3_bt.png)
 
-![fig4_bt](/../fig4_bt.png)
+![fig4_bt](../Images/fig4_bt.png)
 
-![fig5_bt](/../fig5_bt.png)
+![fig5_bt](../Images/fig5_bt.png)
 
-![fig8_bt](/../fig8_bt.png)
+![fig8_bt](../Images/fig8_bt.png)
 
-![fig9_bt](/../fig9_bt.png)
+![fig9_bt](../Images/fig9_bt.png)
 
 
 
 ##### CONTRASTIVE MODE OUTPUT 
 
-![fig1_bt_neg_full](/../fig1_bt_neg_full.png)
+![fig1_bt_neg_full](../Images/fig1_bt_neg_full.png)
 
-![fig1_bt_pos_full](/../fig1_bt_pos_full.png)
+![fig1_bt_pos_full](../Images/fig1_bt_pos_full.png)
 
-![fig2_bt_neg_full](/../fig2_bt_neg_full.png)
+![fig2_bt_neg_full](../Images/fig2_bt_neg_full.png)
 
-![fig2_bt_pos_full](/../fig2_bt_pos_full.png)
+![fig2_bt_pos_full](../Images/fig2_bt_pos_full.png)
 
-![fig3_bt_neg_full](/../fig3_bt_neg_full.png)
+![fig3_bt_neg_full](../Images/fig3_bt_neg_full.png)
 
-![fig3_bt_pos_full](/../fig3_bt_pos_full.png)
+![fig3_bt_pos_full](../Images/fig3_bt_pos_full.png)
 
-![fig4_bt_neg_full](/../fig4_bt_neg_full.png)
+![fig4_bt_neg_full](../Images/fig4_bt_neg_full.png)
 
-![fig4_bt_pos_full](/../fig4_bt_pos_full.png)
+![fig4_bt_pos_full](../Images/fig4_bt_pos_full.png)
 
-![fig5_bt_neg_full](/../fig5_bt_neg_full.png)
+![fig5_bt_neg_full](../Images/fig5_bt_neg_full.png)
 
-![fig5_bt_pos_full](/../fig5_bt_pos_full.png)
+![fig5_bt_pos_full](../Images/fig5_bt_pos_full.png)
 
-![fig8_bt_neg_full](/../fig8_bt_neg_full.png)
+![fig8_bt_neg_full](../Images/fig8_bt_neg_full.png)
 
-![fig8_bt_pos_full](/../fig8_bt_pos_full.png)
+![fig8_bt_pos_full](../Images/fig8_bt_pos_full.png)
 
-![fig9_bt_neg_full](/../fig9_bt_neg_full.png)
+![fig9_bt_neg_full](../Images/fig9_bt_neg_full.png)
 
-![fig9_bt_pos_full](/../fig9_bt_pos_full.png)
+![fig9_bt_pos_full](../Images/fig9_bt_pos_full.png)
 
 ​	(Reference : BLUE - negative contrast , GREEN - positive contrast)
 
