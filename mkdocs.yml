@@ -1,0 +1,14 @@
+site_name: Arya XAI Documentation
+
+site_url: http://docs.arya-xai.ai/
+
+nav:
+    - Home: index.md
+    - Let's Get Started: use_the_api.md
+    - Algorithm: algo.md
+    - Layer Types: Layer_types.md
+    - Network Details: network_detail.md
+    - Example: examples.md
+    - About: about.md
+
+theme: readthedocs
