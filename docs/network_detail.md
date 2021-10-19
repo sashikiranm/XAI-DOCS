@@ -6,7 +6,7 @@ We have used the MNIST character recognition dataset to demonstrate the Arya-xAI
 
 
 
-![fig2_input](/../fig2_input.png)
+![fig2_input](../Images/fig2_input.png)
 
 ![fig3_input](/../fig3_input.png)
 
