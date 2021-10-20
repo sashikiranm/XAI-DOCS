@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  <link rel="canonical" href="http://docs.arya-xai.ai/network_detail/">
+  <link rel="canonical" href="https://sashikiranm.github.io/XAI-docs/network_detail/">
   <link rel="shortcut icon" href="../img/favicon.ico">
   <title>Network Details - Arya XAI Documentation</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
@@ -20,7 +20,7 @@
     // Current page data
     var mkdocs_page_name = "Network Details";
     var mkdocs_page_input_path = "network_detail.md";
-    var mkdocs_page_url = "/network_detail/";
+    var mkdocs_page_url = "/XAI-docs/network_detail/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
@@ -51,33 +51,25 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../use_the_api/">Let's Get Started</a>
-                    </li>
-                </ul>
-                <ul>
                     <li class="toctree-l1"><a class="reference internal" href="../algo/">Algorithm</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../Layer_types/">Layer Types</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../use_the_api/">Let's Get Started</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../examples/">Example</a>
                     </li>
                 </ul>
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Network Details</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#data">DATA</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#input-and-output-network">INPUT AND OUTPUT NETWORK</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#default-mode-output">DEFAULT MODE OUTPUT</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#contrastive-mode-output">CONTRASTIVE MODE OUTPUT</a>
-    </li>
     </ul>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../examples/">Example</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../Layer_types/">Layer Types</a>
                     </li>
                 </ul>
                 <ul>
@@ -117,47 +109,10 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="input">INPUT</h1>
-<h6 id="data">DATA</h6>
-<p>We have used the MNIST character recognition dataset to demonstrate the Arya-xAI framework. The MNIST dataset of handwritten single digits between 0 and 9, consists of 60,000 small, square grayscale images with resolution 28×28pixels. A custom architecture, which contains most of the commonly used components such as convolutions and lstms, is designed for this data.</p>
-<p><img alt="fig2_input" src="../Images/fig2_input.png" /></p>
-<p><img alt="fig3_input" src="../Images/fig3_input.png" /></p>
-<p><img alt="fig4_input" src="../Images/fig4_input.png" /></p>
-<p><img alt="fig5_input" src="../Images/fig5_input.png" /></p>
-<p><img alt="fig8_input" src="../Images/fig8_input.png" /></p>
-<p><img alt="fig9_input" src="../Images/fig9_input.png" /></p>
-<p>​   Examples of input </p>
-<h6 id="input-and-output-network">INPUT AND OUTPUT NETWORK</h6>
-<p><img src="https://lh5.googleusercontent.com/9UnRaieyZs5GoBEGi1og8UUZ9OUgR7I-6JbK_HgrIyV6fYiutKS7cPYrtEnj57c2qZgWwL7fRp46WpH2gCGyfeJeYv2W5t_X9kg1QhAEnUyckTFJ_TJ-MJRu26bVnmM1Dbj01BIQ=s0" alt="img" style="zoom: 200%;" /></p>
-<h5 id="default-mode-output">DEFAULT MODE OUTPUT</h5>
-<p><img alt="" src="../Images/fig1_bt.png" /></p>
-<p><img alt="fig2_bt" src="../Images/fig2_bt.png" /></p>
-<p><img alt="fig3_bt" src="../Images/fig3_bt.png" /></p>
-<p><img alt="fig4_bt" src="../Images/fig4_bt.png" /></p>
-<p><img alt="fig5_bt" src="../Images/fig5_bt.png" /></p>
-<p><img alt="fig8_bt" src="../Images/fig8_bt.png" /></p>
-<p><img alt="fig9_bt" src="../Images/fig9_bt.png" /></p>
-<h5 id="contrastive-mode-output">CONTRASTIVE MODE OUTPUT</h5>
-<p><img alt="fig1_bt_neg_full" src="../Images/fig1_bt_neg_full.png" /></p>
-<p><img alt="fig1_bt_pos_full" src="../Images/fig1_bt_pos_full.png" /></p>
-<p><img alt="fig2_bt_neg_full" src="../Images/fig2_bt_neg_full.png" /></p>
-<p><img alt="fig2_bt_pos_full" src="../Images/fig2_bt_pos_full.png" /></p>
-<p><img alt="fig3_bt_neg_full" src="../Images/fig3_bt_neg_full.png" /></p>
-<p><img alt="fig3_bt_pos_full" src="../Images/fig3_bt_pos_full.png" /></p>
-<p><img alt="fig4_bt_neg_full" src="../Images/fig4_bt_neg_full.png" /></p>
-<p><img alt="fig4_bt_pos_full" src="../Images/fig4_bt_pos_full.png" /></p>
-<p><img alt="fig5_bt_neg_full" src="../Images/fig5_bt_neg_full.png" /></p>
-<p><img alt="fig5_bt_pos_full" src="../Images/fig5_bt_pos_full.png" /></p>
-<p><img alt="fig8_bt_neg_full" src="../Images/fig8_bt_neg_full.png" /></p>
-<p><img alt="fig8_bt_pos_full" src="../Images/fig8_bt_pos_full.png" /></p>
-<p><img alt="fig9_bt_neg_full" src="../Images/fig9_bt_neg_full.png" /></p>
-<p><img alt="fig9_bt_pos_full" src="../Images/fig9_bt_pos_full.png" /></p>
-<p>​   (Reference : BLUE - negative contrast , GREEN - positive contrast)</p>
-<p><strong>Impact on pruning and model result assessment</strong></p>
-<ul>
-<li>For model pruning, current explainable approaches offer limited evidence on node/layer level importance in final prediction. The limits range from type of data to network architecture. Arya-XAI uses a unique approach to figure out the importance of each node/layer on the final prediction. This allows a much deeper explainability of the complex black box models for data scientists/researchers, allowing them to gauge which features have the most impact on the model decision. Explanations can be generated at a local level as well as a global level.</li>
-<li>Global level explanations can be used to study the overall model trend, data usage and identify possible improvements. Local level explanations are important for granular control over data usage and unit level performance of the network. Local level explanations not only help in analyzing model outputs for individual samples, they also help in establishing internal trends in any feature with respect to the decision. This facilitates in building feature-level decision boundaries and flag any adverse predictions. </li>
-</ul>
+                <h1 id="neural-network-used">NEURAL NETWORK USED</h1>
+<p style="text-align:center;"><img src="../Images/input.png" alt="drawing" width="400"></p>
+<p><img alt="Input Networks" src="../Images/input.png" /></p>
+<p><img alt="Output Networks" src="../Images/output.png" /></p>
               
             </div>
           </div>
@@ -165,10 +120,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../examples/" class="btn btn-neutral float-right" title="Example">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../Layer_types/" class="btn btn-neutral float-right" title="Layer Types">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../Layer_types/" class="btn btn-neutral" title="Layer Types"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../examples/" class="btn btn-neutral" title="Example"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -194,10 +149,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../Layer_types/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../examples/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../examples/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../Layer_types/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
