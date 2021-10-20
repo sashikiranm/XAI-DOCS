@@ -9,6 +9,7 @@ nav:
     - Example: examples.md
     - Network Details: network_detail.md
     - Layer Types: Layer_types.md
+    - Output: Output.md
     - About: about.md
 
 theme: readthedocs
