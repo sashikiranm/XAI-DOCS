@@ -4,11 +4,11 @@ site_url: http://docs.arya-xai.ai/
 
 nav:
     - Home: index.md
-    - Let's Get Started: use_the_api.md
     - Algorithm: algo.md
-    - Layer Types: Layer_types.md
-    - Network Details: network_detail.md
+    - Let's Get Started: use_the_api.md
     - Example: examples.md
+    - Network Details: network_detail.md
+    - Layer Types: Layer_types.md
     - About: about.md
 
 theme: readthedocs
