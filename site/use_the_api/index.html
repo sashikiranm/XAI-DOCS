@@ -56,6 +56,10 @@
                 </ul>
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Let's Get Started</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#request-field-parameters">Request Field Parameters:</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
                 <ul>
@@ -112,13 +116,59 @@
             <div class="section">
               
                 <ol>
-<li>Navigate to http://xai.arya.ai/</li>
-<li>Sign up as a new user and login</li>
-<li>Click on the <strong>My Models</strong> option on the top right</li>
-<li>Upload the the model on the <strong>Add Model</strong> option</li>
-<li>Choose Model Type (saved model or h5 format)</li>
-<li>Add the downloadable URL of the model and submit </li>
-<li></li>
+<li>
+<p>Navigate to http://xai.arya.ai/</p>
+</li>
+<li>
+<p>Sign up as a new user and login</p>
+</li>
+<li>
+<p>Click on the <strong>My Models</strong> option on the top right</p>
+</li>
+<li>
+<p>Upload the the model on the <strong>Add Model</strong> option</p>
+</li>
+<li>
+<p>Choose Model Type (saved model or h5 format)</p>
+</li>
+<li>
+<p>Add the downloadable URL of the model and submit </p>
+</li>
+<li>
+<p>Once added successfully, the model will be listed as follows:</p>
+</li>
+</ol>
+<blockquote>
+<p>​              token number - 1634#######88 (alphanumeric string)</p>
+<p>​              Model URL - the-downloable-link
+​  </p>
+<p>​              Model Type - saved model or h5 format</p>
+<p>​              Launch Time - dd/mm/yyyy hh:mm:ss
+​  </p>
+<p>​              View API - link to view details</p>
+<p>​              DELETE - link to delete the added model </p>
+</blockquote>
+<h2 id="api-details">API DETAILS</h2>
+<h3 id="request-field-parameters">Request Field Parameters:</h3>
+<ol>
+<li>
+<p>mode - either network analysis or decision analysis</p>
+</li>
+<li>
+<p>token - alphanumeric string referring to the model ID </p>
+</li>
+<li>
+<p>is_multi_input - whether or not the model accepts multiple inputs(T/F)</p>
+</li>
+<li>
+<p>model_input - model input as a list or numpy array</p>
+</li>
+<li>
+<p>scaler - to scale the initial model weights (&gt;0)</p>
+</li>
+<li>
+<p>predictions - the model predicted value</p>
+</li>
 </ol>
               
             </div>
