@@ -1,3 +1,4 @@
+HOW TO USE THE ARYA-xAI API?
 
 1. Navigate to http://xai.arya.ai/
 
