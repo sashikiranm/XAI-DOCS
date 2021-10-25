@@ -9,7 +9,7 @@
   
   <link rel="canonical" href="https://sashikiranm.github.io/XAI-docs/algo/">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Algorithm - Arya XAI Documentation</title>
+  <title>How does Arya-xAI work? - Arya XAI Documentation</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Algorithm";
+    var mkdocs_page_name = "How does Arya-xAI work?";
     var mkdocs_page_input_path = "algo.md";
     var mkdocs_page_url = "/XAI-docs/algo/";
   </script>
@@ -51,29 +51,21 @@
                     </li>
                 </ul>
                 <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Algorithm</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">How does Arya-xAI work?</a>
     <ul class="current">
     </ul>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../use_the_api/">Let's Get Started</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../use_the_api/">How to Use the API?</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../examples/">Example</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../network_detail/">Network Details</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../examples/">Implementing Arya-xAI Image Classification on MNIST Data</a>
                     </li>
                 </ul>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="../Layer_types/">Layer Types</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../Output/">Output</a>
                     </li>
                 </ul>
                 <ul>
@@ -101,7 +93,7 @@
     
       
     
-    <li>Algorithm</li>
+    <li>How does Arya-xAI work?</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -113,7 +105,7 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="how-does-arya-xai-work"><strong>How does Arya-xAI work?</strong></h2>
+                <h1 id="how-does-arya-xai-work"><strong>How does Arya-xAI work?</strong></h1>
 <p>Arya XAI currently has two modes of operation known as default and contrastive mode which are demonstrated through the following use-cases respectively:</p>
 <ul>
 <li>
@@ -131,7 +123,7 @@
 <li>For the default mode, any loss of relevance during propagation is due to network bias. However, network bias is ignored for relevance computation in the contrastive mode.</li>
 <li>The relevance of a single sample represents local importance. For global importance, the relevance of each feature can be aggregated after normalization on the sample level. </li>
 </ol>
-<h2 id="impact-on-pruning-and-model-result-assessment">IMPACT ON PRUNING AND MODEL RESULT ASSESSMENT</h2>
+<h1 id="impact-on-pruning-and-model-result-assessment">IMPACT ON PRUNING AND MODEL RESULT ASSESSMENT</h1>
 <ul>
 <li>
 <p>For model pruning, current explainable approaches offer limited evidence on node/layer level importance in final prediction. The limits range from type of data to network architecture. Arya-XAI uses a unique approach to figure out the importance of each node/layer on the final prediction. This allows a much deeper explainability of the complex black box models for data scientists/researchers, allowing them to gauge which features have the most impact on the model decision. Explanations can be generated at a local level as well as a global level.</p>
@@ -147,7 +139,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../use_the_api/" class="btn btn-neutral float-right" title="Let's Get Started">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../use_the_api/" class="btn btn-neutral float-right" title="How to Use the API?">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>

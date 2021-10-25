@@ -23,7 +23,7 @@ We have used the MNIST character recognition dataset to demonstrate the Arya-xAI
 <p style="text-align:center">	<img src="../Images/input.png" width="400">
 </p>				
 
-<p style="text-align:center"> OUTPUT NETWORK ARCHITECTURE </p>
+<p style="text-align:center"> OUTPUT NETWORK ARCHITECTURE from Arya-xAI</p>
 <p style="text-align:center">	<img src="../Images/output.png" width="400">
 </p>				
 # OUTPUT

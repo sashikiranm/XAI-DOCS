@@ -9,7 +9,7 @@
   
   <link rel="canonical" href="https://sashikiranm.github.io/XAI-docs/use_the_api/">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Let's Get Started - Arya XAI Documentation</title>
+  <title>How to Use the API? - Arya XAI Documentation</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Let's Get Started";
+    var mkdocs_page_name = "How to Use the API?";
     var mkdocs_page_input_path = "use_the_api.md";
     var mkdocs_page_url = "/XAI-docs/use_the_api/";
   </script>
@@ -51,37 +51,25 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../algo/">Algorithm</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../algo/">How does Arya-xAI work?</a>
                     </li>
                 </ul>
                 <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Let's Get Started</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">How to Use the API?</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#api-details">API DETAILS</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#request-field-parameters">Request Field Parameters:</a>
+    <li class="toctree-l2"><a class="reference internal" href="#request-field-parameters">Request Field Parameters:</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#response">Response</a>
-    </li>
-        </ul>
+    <li class="toctree-l2"><a class="reference internal" href="#response">Response</a>
     </li>
     </ul>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../examples/">Example</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../network_detail/">Network Details</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../examples/">Implementing Arya-xAI Image Classification on MNIST Data</a>
                     </li>
                 </ul>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="../Layer_types/">Layer Types</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../Output/">Output</a>
                     </li>
                 </ul>
                 <ul>
@@ -109,7 +97,7 @@
     
       
     
-    <li>Let's Get Started</li>
+    <li>How to Use the API?</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -121,8 +109,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="how-to-use-the-api">How to Use the API?</h1>
-<ol>
+                <ol>
 <li>
 <p>Navigate to http://xai.arya.ai/</p>
 </li>
@@ -152,8 +139,8 @@ Launch Time - dd/mm/yyyy  hh:mm:ss
 </code></pre>
 </li>
 </ol>
-<h2 id="api-details">API DETAILS</h2>
-<h3 id="request-field-parameters">Request Field Parameters:</h3>
+<h1 id="api-details">API DETAILS</h1>
+<h2 id="request-field-parameters">Request Field Parameters:</h2>
 <ol>
 <li>
 <p>mode - either default or contrast</p>
@@ -174,10 +161,10 @@ Launch Time - dd/mm/yyyy  hh:mm:ss
 <p>predictions - the model predicted value (True or False flag, if True send network output in response)</p>
 </li>
 </ol>
-<h3 id="response">Response</h3>
+<h2 id="response">Response</h2>
 <p>(either as a numpy array or a json compatible list)</p>
 <ol>
-<li><strong>data</strong> field - weights of all input layers specified by layer-name as key-value pairs ( layer_name : list of weights )<ul>
+<li><strong>data</strong> field - weights of all input layers specified by layer-name as key-value pairs         ( layer_name : list of weights )<ul>
 <li>if default mode - data field has just one entry per layer</li>
 <li>if contrast mode - for each layer there will be entries corresponding  to the positive and negative contast </li>
 </ul>
@@ -191,10 +178,10 @@ Launch Time - dd/mm/yyyy  hh:mm:ss
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../examples/" class="btn btn-neutral float-right" title="Example">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../examples/" class="btn btn-neutral float-right" title="Implementing Arya-xAI Image Classification on MNIST Data">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../algo/" class="btn btn-neutral" title="Algorithm"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../algo/" class="btn btn-neutral" title="How does Arya-xAI work?"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
