@@ -4,12 +4,10 @@ site_url: https://sashikiranm.github.io/XAI-docs/
 
 nav:
     - Home: index.md
-    - Algorithm: algo.md
-    - Let's Get Started: use_the_api.md
-    - Example: examples.md
-    - Network Details: network_detail.md
+    - How does Arya-xAI work?: algo.md
+    - How to Use the API?: use_the_api.md
+    - Implementing Arya-xAI Image Classification on MNIST Data: examples.md
     - Layer Types: Layer_types.md
-    - Output: Output.md
     - About: about.md
 
 theme: readthedocs

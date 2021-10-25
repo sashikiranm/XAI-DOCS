@@ -1,6 +1,4 @@
 
-# How to Use the API?
-
 1. Navigate to http://xai.arya.ai/
 
 2. Sign up as a new user and login
@@ -23,9 +21,9 @@
 		​DELETE -  link to delete the added model 
 
 
-## API DETAILS
+# API DETAILS
 
-###Request Field Parameters:
+##Request Field Parameters:
 
 1. mode - either default or contrast
 
@@ -40,10 +38,10 @@
 6. predictions - the model predicted value (True or False flag, if True send network output in response)
 
 
-###Response 
+##Response 
 (either as a numpy array or a json compatible list)
 
-1.  **data** field - weights of all input layers specified by layer-name as key-value pairs ( layer_name : list of weights )
+1.  **data** field - weights of all input layers specified by layer-name as key-value pairs         ( layer_name : list of weights )
 	- if default mode - data field has just one entry per layer
 	- if contrast mode - for each layer there will be entries corresponding  to the positive and negative contast 
 2.  **network_output** field - output corresponding to each output layer (empty if prediction flag is False)
