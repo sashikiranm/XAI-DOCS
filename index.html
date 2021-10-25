@@ -49,35 +49,23 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#about-arya-xai-on-image-classification">About Arya-XAI on Image Classification</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#current-approaches-to-explainable-ai-and-their-challenges">Current approaches to Explainable AI and their challenges</a>
-    </li>
     </ul>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="algo/">Algorithm</a>
+                    <li class="toctree-l1"><a class="reference internal" href="algo/">How does Arya-xAI work?</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="use_the_api/">Let's Get Started</a>
+                    <li class="toctree-l1"><a class="reference internal" href="use_the_api/">How to Use the API?</a>
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="examples/">Example</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="network_detail/">Network Details</a>
+                    <li class="toctree-l1"><a class="reference internal" href="examples/">Implementing Arya-xAI Image Classification on MNIST Data</a>
                     </li>
                 </ul>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="Layer_types/">Layer Types</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="Output/">Output</a>
                     </li>
                 </ul>
                 <ul>
@@ -118,10 +106,9 @@
             <div class="section">
               
                 <h1 id="welcome-to-arya-xai-explainable-ai"><strong><em>Welcome to Arya XAI (Explainable-AI)</em></strong></h1>
-<h2 id="about-arya-xai-on-image-classification">About Arya-XAI on Image Classification</h2>
 <p>At Arya.ai, we recently released a new framework - ‘Arya-XAI’ to simplify DLOps in production. Arya-XAI(short for Arya-Explainable AI) enhances the credibility of the predictions of your DL model by generating new and simple explanations (pertaining to the generation of these predictions) in real time as required by various stakeholders. 
 This is the tutorial-first mode of operation for Arya-xAI and it also illustrates the capabilities of the framework.</p>
-<h2 id="current-approaches-to-explainable-ai-and-their-challenges"><strong>Current approaches to Explainable AI and their challenges</strong></h2>
+<h1 id="current-approaches-to-explainable-ai-and-their-challenges"><strong>Current approaches to Explainable AI and their challenges</strong></h1>
 <p>Current approaches to explain black-box DL models are heavily reliant on specific data types and network components, both of which severely limit their applicability to a diverse range of use-cases and novel network architectures. This poses challenges to understand or explain true-to-model functioning(that takes into account the internal design of the model). However, models like SHAP, LIME, Integrated Gradients etc. use a <strong>permute-and-predict</strong> approach to explain the model functioning. While the approaches do offer approximate explanations of how a DL model works on the input to ultimately yield the output, unfortunately these are understandable only by an AI expert. Unlike the existing models such as SHAP and LIME which do not take the internal structure of a network into account to explain its working, the Arya-XAI framework decodes explanations by computing weightage of each feature together with the node-level weightages for a given neural network architecture, referred to as <strong>true-to-model</strong> feature and node-level weightages respectively. The framework not only improves reliability on DL models substantially, but also offers easy-to-understand reasons behind the outcome. </p>
               
             </div>
@@ -130,7 +117,7 @@ This is the tutorial-first mode of operation for Arya-xAI and it also illustrate
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="algo/" class="btn btn-neutral float-right" title="Algorithm">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="algo/" class="btn btn-neutral float-right" title="How does Arya-xAI work?">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
     </div>
@@ -177,5 +164,5 @@ This is the tutorial-first mode of operation for Arya-xAI and it also illustrate
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2021-10-22 12:09:54.610928+00:00
+Build Date UTC : 2021-10-25 07:42:40.513928+00:00
 -->
