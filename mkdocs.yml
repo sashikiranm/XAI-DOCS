@@ -8,6 +8,5 @@ nav:
     - How to Use the API?: use_the_api.md
     - Implementing Arya-xAI Image Classification on MNIST Data: examples.md
     - Layer Types: Layer_types.md
-    - About: about.md
 
 theme: readthedocs
